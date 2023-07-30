@@ -45,3 +45,20 @@ a {
     color: #7D7987;
     text-align: justify;
 }
+
+.products {
+    display: flex;
+}
+
+.product-card {
+    width: 33.3%;
+    height: 200px;
+    margin: 10px;
+}
+
+.product__img {
+    width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
