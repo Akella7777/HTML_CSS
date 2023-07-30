@@ -1,0 +1,47 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding:0 15px;
+}
+
+
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link__menu {
+    margin: 10px;
+    padding: 10px;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header__h1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.header__h2 {
+    margin: 0;
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    text-align: justify;
+}
