@@ -17,7 +17,7 @@ time, mark, audio, video {
 	font-size: 14px;
 	font-family: "Lato", "Roboto", "Arial", sans-serif;
 	vertical-align: baseline;
-    /* letter-spacing: 1px; */
+     letter-spacing: 1px;
 }
 
 * {
@@ -41,10 +41,12 @@ footer, header, hgroup, menu, nav, section {
 
 html {
 	height: 100%;
+    overflow-x: hidden;
 }
 
 body {
 	line-height: 1;
+
 }
 
 ol, ul {
@@ -67,9 +69,9 @@ table {
 }
 
 .container {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 230px;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+
 }
 
 .header__container {
@@ -244,7 +246,7 @@ table {
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
     margin-top: 50%;
-    margin-left: 66px;
+    /*margin-left: 66px;*/
 }
 
 .title {
@@ -258,7 +260,7 @@ table {
     margin-bottom: 25px;
     font-weight: 900;
     font-size: 32px;
-    line-height: 10px;
+    line-height: 32px;
     letter-spacing: 1.2px;
     text-align: left;
 }
@@ -266,7 +268,7 @@ table {
 .subtitle_FASHION {
     color: #F16D7F;
     font-size: 32px;
-    line-height: 22px;
+    line-height: 32px;
     letter-spacing: 1.2px;
 }
 
@@ -294,8 +296,14 @@ table {
 
 .offer__text {
     position: absolute;
-    top: 41%;
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .offer__subtext {
@@ -490,7 +498,7 @@ table {
 .cart-items__item {
     margin-bottom: 40px;
     display: flex;
-    width: 652px;;
+    max-width: 652px;
     height: 306px;
     box-shadow: 17px 19px 24px 0 rgba(0, 0, 0, .13);
 }
@@ -566,7 +574,7 @@ table {
 .cart-items_close {
     margin-left: auto;
     width: 58%;
-    position: relative;
+    /*position: relative;*/
     /*top: 0;*/
     /*right: 0;*/
     cursor: pointer;
