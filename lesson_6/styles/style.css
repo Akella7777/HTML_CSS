@@ -144,8 +144,10 @@ table {
 }
 
 .home__meta {
-    margin-top: 285px;
-    padding-left: 16%;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-top: 50%;
+    margin-left: 66px;
 }
 
 .title {
