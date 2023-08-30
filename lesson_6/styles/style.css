@@ -112,7 +112,10 @@ table {
 .main {
     width: 100%;
     margin-bottom: 62px;
-    /*position: relative;*/
+}
+
+.main_container {
+    background-color: #F1E4E6;
 }
 
 .hero__block {
@@ -121,20 +124,19 @@ table {
 }
 
 .image {
-    width: 50%;
+    max-width: 50%;
     position: relative;
     left: -230px;
     top: 0;
 
 }
 
-/*.img {*/
-/*    max-width: 100%;*/
-/*    max-height:100%;*/
-/*    position: relative;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*}*/
+.img {
+    /*max-width: 800px;*/
+    position: relative;
+    left: 0;
+    top: 0;
+}
 
 .basic__part {
     width: 50%;
@@ -172,7 +174,7 @@ table {
 /* offer */
 
 .offer {
-    margin-bottom: 95px;
+    margin-bottom: 105px;
 }
 .offer_content {
     display: grid;
