@@ -204,7 +204,7 @@ table {
 }
 
 .main {
-    width: 100%;
+    /*width: 100%;*/
     margin-bottom: 62px;
 }
 
@@ -214,26 +214,29 @@ table {
 
 .hero__block {
     display: flex;
-    position: relative;
+    /*position: relative;*/
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 }
 
 .image {
     max-width: 50%;
-    position: relative;
-    left: -230px;
-    top: 0;
+    max-height: 100%;
+    /*position: relative;*/
+    /*left: -230px;*/
+    /*top: 0;*/
 
 }
 
 .img {
-    /*max-width: 800px;*/
-    position: relative;
-    left: 0;
-    top: 0;
+    max-width: 100%;
+    /*position: relative;*/
+    /*left: 0;*/
+    /*top: 0;*/
 }
 
 .basic__part {
-    width: 50%;
+    width: 36%;
     margin-bottom: 100px;
 }
 
